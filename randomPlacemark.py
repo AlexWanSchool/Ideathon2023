@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 import random
 
 latitude = random.randrange(-90, 90)
@@ -13,5 +15,5 @@ kml = (
    '</Placemark>\n'
    '</kml>'
    ) %(longitude, latitude)
-print 'Content-Type: application/vnd.google-earth.kml+xml\n'
-print kml
+print('Content-Type: application/vnd.google-earth.kml+xml\n')
+print(kml)
