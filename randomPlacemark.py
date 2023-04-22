@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 import random
 
 latitude = random.randrange(-90, 90)
